@@ -1,0 +1,23 @@
+# 個人資料：不要上傳
+songs/
+*.log
+
+# Python 環境（執行 mac/setup.sh 會自己安裝）
+mac/.venv/
+__pycache__/
+*.pyc
+
+# Xcode 的個人設定和編譯產物
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+
+# AI 助理的對話與設定（不上傳）
+.claude/
+CLAUDE.md
+CLAUDE.local.md
+
+# macOS 和 Office 自動產生的檔案
+.DS_Store
+~$*
